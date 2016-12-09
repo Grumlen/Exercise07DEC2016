@@ -1,52 +1,49 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <meta name="description" content="Games page for exercise" />
-    <title>Home Page</title>
+    <meta name="description" content="Games page for exercise" author="Nathan Christian" />
+    <title>Game Page</title>
+    <!-- Linking the css file -->
+    <link href="cssfile.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <h1 align="middle">Example Website</h1>
-    <table>
-      <tr>
-        <td valign="top"> <table>
-          <tr>
-            <th> <img src="images/logo.jpeg" height="100"> </th>
-          </tr>
-          <tr> <td> <a href="home.html">Home Page</a> </td> </tr>
-          <tr> <td> <a href="games.html">Games Page</a> </td> </tr>
-          <tr> <td> <a href="internet.html">Internet Page</a> </td> </tr>
-        </table> </td>
-        <td valign="top"> <table border="2" bcolor="#8fefef">
-          <tr>
-            <th scope="col" colspan="2">This is the Games Page</th>
-          </tr>
-          <tr>
-           <td colspan="2">This actually the games page where in a real website there would be a discussion of games or links to gaming news or something like that; however, this is only a fake website built for an exercise so it doesn't actually contain anything.</td>
-          </tr>
-          <tr>
-            <td valign="top" width="50%">This space could be good for containing a top 10 list of some genre of game:
-              <ol>
-                <li>Game 1</li>
-                <li>Game 2</li>
-                <li>Game 3</li>
-                <li>Game 4</li>
-                <li>Game 5</li>
-                <li>Game 6</li>
-                <li>Game 7</li>
-                <li>Game 8</li>
-                <li>Game 9</li>
-                <li>Game 10</li>
-            </td>
-            <td valign="top" width="50%">On the other hand, a space like this could also just be used to point out the critical elements of a well designed game:
-              <ul>
-                <li>This is important.</li>
-                <li>So is this.</li>
-                <li>Oh, and we can't forget about this.</li>
-            </td>
-          </tr>
-        </table> </td>
-      </tr>
-    </table>
-    <p align="middle">Down here would go various bits of page information like disclaimers, a link to a site map, and other stuff.</p>
+    <h1>Example Website</h1>
+      <nav> <img src="images/logo.jpeg" class="logo">
+        <a href="home.html" class"nav_link">Home Page</a>
+        <a href="games.html" class="nav_link">Games Page</a>
+        <a href="internet.html" class="nav_link">Internet Page</a>
+      </nav>
+      <div class="main_area">
+        <h2>This is the Games Page</h2>
+        <article class="center column">
+         This actually the games page where in a real website there would be a discussion of games or links to gaming news or something like that; however, this is only a fake website built for an exercise so it doesn't actually contain anything.
+        </article>
+        <article class="left sub column">
+          This space could be good for containing a top 10 list of some genre of game:
+          <ol>
+            <li>Game 1</li>
+            <li>Game 2</li>
+            <li>Game 3</li>
+            <li>Game 4</li>
+            <li>Game 5</li>
+            <li>Game 6</li>
+            <li>Game 7</li>
+            <li>Game 8</li>
+            <li>Game 9</li>
+            <li>Game 10</li>
+          </ol>
+        </article>
+        <article class="right sub column">
+          On the other hand, a space like this could also just be used to point out the critical elements of a well designed game:
+          <ul>
+            <li>This is important.</li>
+            <li>So is this.</li>
+            <li>Oh, and we can't forget about this.</li>
+          </ul>
+        </article>
+      </div>
+    <footer>
+      Down here would go various bits of page information like disclaimers, a link to a site map, and other stuff.
+    </footer>
   </body>
 </html>

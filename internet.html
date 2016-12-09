@@ -1,37 +1,33 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <meta name="description" content="Internet page for exercise" />
+    <meta name="description" content="Internet page for exercise" author="Nathan Christian" />
     <title>Home Page</title>
+    <!-- Linking the css file -->
+    <link href="cssfile.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <h1 align="middle">Example Website</h1>
-    <table>
-      <tr>
-        <td valign="top"> <table>
-          <tr>
-            <th> <img src="images/logo.jpeg" height="100"> </th>
-          </tr>
-          <tr> <td> <a href="home.html">Home Page</a> </td> </tr>
-          <tr> <td> <a href="games.html">Games Page</a> </td> </tr>
-          <tr> <td> <a href="internet.html">Internet Page</a> </td> </tr>
-        </table> </td>
-        <td valign="top"> <table border="2" bcolor="#efefef">
-          <tr>
-            <th scope="col" colspan="2">This is the Internet Page</th>
-          </tr>
-          <tr>
-           <td colspan="2">On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion about things like SOPA or how funny the latest internet cat video is.</td>
-          </tr>
-          <tr>
-            <td valign="top" width="50%">I could use this section to get user feedback about the serious part of the blog post above:
-                <form> <textarea placeholder="Write your thoughts here!" cols="20" rows="8">Write your thoughts here!</textarea> </form>
-            </td>
-            <td valign="top" width="50%">This section would be silly and about things like how fluffy the cat was. <div> <img src="images/fluffy.jpg" alt="Picture of a fluffy white cat." /> </td>
-          </tr>
-        </table> </td>
-      </tr>
-    </table>
-    <p align="middle">Down here would go various bits of page information like disclaimers, a link to a site map, and other stuff.</p>
+    <h1>Example Website</h1>
+      <nav> <img src="images/logo.jpeg" class="logo">
+        <a href="home.html" class"nav_link">Home Page</a>
+        <a href="games.html" class="nav_link">Games Page</a>
+        <a href="internet.html" class="nav_link">Internet Page</a>
+      </nav>
+      <div class="main_area">
+        <h2>This is the Internet Page</h2>
+        <article class="center column">
+          On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion On a real web page this would be the area for the main discussion about things like SOPA or how funny the latest internet cat video is.        </article>
+        <article class="left sub column">
+          I could use this section to get user feedback about the serious part of the blog post above:
+              <form> <textarea placeholder="Write your thoughts here!" cols="20" rows="8">Write your thoughts here!</textarea> </form>
+        </article>
+        <article class="right sub column">
+          This section would be silly and about things like how fluffy the cat was.
+          <img src="images/fluffy.jpg" alt="Picture of a fluffy white cat." />
+        </article>
+      </div>
+    <footer>
+      Down here would go various bits of page information like disclaimers, a link to a site map, and other stuff.
+    </footer>
   </body>
 </html>
